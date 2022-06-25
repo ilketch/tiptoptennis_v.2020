@@ -1,0 +1,132 @@
+h1{
+	color: black;
+    	font-size: 0.7vw;
+    	text-align: center;
+}
+
+h2{
+	color: black;
+	font-size: 0.8vw;
+}
+
+
+ul#menu {
+    	font-family: source sans, sans-serif;
+    	font-size: 1vw;
+    	margin:0;
+	padding:0;
+    	list-style: none;
+    	width: 100%;
+    	text-align: center;
+    	background-color: #B3C3D6;/*#CAD5E3 #b0c4de #468284*/
+}
+
+ul#menu li {
+    	display: inline-block;
+    	background-color: ;
+    	border-bottom: 2px solid black;
+	margin: 2px;
+    	width: 11%;
+}
+
+ul#menu li a {
+	display: inline-block;
+    	font-weight: bold;
+    	text-decoration: none;
+	height: 40px;
+	line-height: 50px;
+    	color: black;
+}
+
+ul#menu li.active a, ul#menu li:hover a{
+	display: inline-block;
+    	font-weight: bold;
+    	text-decoration: none;
+	height: 40px;
+	line-height: 50px;
+    	color: black;
+}
+
+ul#menu li.active, ul#menu li:hover {
+	color: black;
+    	background-color: white;
+    	border-bottom:2px solid black;
+}
+
+ul#menu li ul {
+	display: none;
+	width: 10%;
+	background-color: #e0df00;
+}
+
+ul#menu li:hover ul {
+	display: block;
+	position: absolute;
+	z-index:1;
+	width:11%;
+	padding: 0;
+	background-color: #B3C3D6;
+	text-align: left;
+}
+
+ul#menu li ul li{
+	background-color: #ddd;
+	width: 100%;
+    	padding: 0;
+	padding-bottom: 2%;
+	padding-left: 2%;
+    	margin: 0;
+   	border-bottom: 2px solid black;
+}
+
+ul#menu li ul li:hover {
+    background-color: #eee;
+    border-bottom:2px solid black;
+}
+
+ul#menu li ul li a{
+    font-family: source sans, sans-serif;
+    font-size: 10px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+footer {
+  	bottom: 0;
+  	width: 100%;
+  	height: auto;
+  	background-color: #B3C3D6;
+  	color: black;
+  	text-align: left;
+	font-family: lato sans, sans-serif;
+}
+
+div.split2 div {
+    float: left;
+    width: 40%;
+}
+div.wide {
+    clear: left;
+    padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+.container1{
+	margin-top: 40px;
+    	margin-left: 10%;
+    	padding-left: 20px;
+    	padding-top: 20px;
+   	padding-bottom: 20px;
+   	border-left: solid black 2px;
+	font-size: 1vw;
+}
+
+.container2{
+	margin-top: 40px;
+   	margin-left: 10%;
+    	padding-top: 15px;
+	font-size: 1vw;
+}
